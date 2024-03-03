@@ -1,0 +1,16 @@
+<div class="container w-50 border border-secondary border-1 p-3 mt-5 rounded bg-light">
+  <h5 class="p-3 mb-4 bg-primary text-white rounded-top">
+    Project: <%= project.name %>
+  </h5>
+  <div class="px-3">
+    <h4 class="mb-4">
+      <span class="text-secondary">Author:</span>
+      <%= project.author %>
+    </h4>
+    <h4 class="mb-4">
+      <span class="text-secondary">Description:</span>
+      <%= project.description %>
+    </h4>
+  </div>
+</div>
+<%- include('./partials/_issues'); %>
